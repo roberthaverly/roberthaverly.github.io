@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Robert Haverly | Creative Direction, UX/UI Design, Product Design // Boulder Colorado</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<style>
+	.loaded .intro p {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.intro {
+		background: none;
+	}
+	.intro img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: transform 400ms linear;
+		transform: scale(1);
+		z-index: -1;
+	}
+	.loaded .intro img {
+		transform: scale(1);
+	}
+	</style>
+
+</head>
+
+
+<body>
+
+	<div id="wrapper">
+
+		<div class="intro">
+
+			<div class="animation-target">
+				<img src="../images/banner.jpg" alt="">
+				<h1>My name is Robert Haverly</h1>
+
+				<p><span>I’m a mobile focused user experience evangelist, product designer, and creative director from Burlington Vermont. I'm currently enjoying life in Boulder Colorado, after a decade or so of exploring startups and agencies in Burlington, Boston, Fort Collins, Santa Cruz, Austin, and San Fransisco. I work with big and small companies, but I'm notably addicted to start-up culture and bringing products to market.</span>
+				</p>
+
+				<p><span>Some of the companies I’ve had the pleasuring of working with, include <a href="http://www.youtube.com/yt/advertise/">YouTube</a>, <a href="http://google.com">Google</a>, <a href="http://weareartifact.com">Artifact</a>, <a href="http://paypal.com/here">PayPal</a>, <a href="http://octopuscreative.com">Octopus Creative</a>, <a href="http://oursiberia.com">Siberia</a>, <a href="http://method.com">Method</a>, <a href="http://beta.oneid.com">OneID</a>, and eight billion more (give or take).</span>
+				</p>
+			</div>
+
+		</div>
+
+
+		<div class="portfolio">
+
+			<h2>Work, you say?</h2>
+
+			<p>You're best off finding my work on my rarely updated <a href="http://dribbble.com/roberthaverly" title="Robert Haverly on Dribbble">Dribbble</a> profile, or just <a href="mailto:hello@roberthaverly.com">asking me</a> for a deck. I don't blog, and I never have time to update things like portfolios or <a href="http://www.linkedin.com/profile/view?id=20385064">LinkedIn</a> profiles. You could also follow me on <a href="http://instagram.com/roberthaverly">Instagram</a> maybe - I take <a href="http://roberthaverly.format.com">pictures</a> once in a while.</p>
+
+		</div>
+
+	</div>
+
+	
+	<script>
+	// self executing function here
+	(function() {
+		setTimeout(function() {
+			document.querySelector('body').className += ' loaded';
+		}, 500);
+
+
+	})();
+	</script>
+
+</body>
+
+</html>

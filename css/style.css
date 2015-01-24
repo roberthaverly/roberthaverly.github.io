@@ -1,0 +1,100 @@
+@import url('reset.css');
+
+body {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	color: #000;
+	text-align: center;
+	background: #ebebeb;
+}
+
+#wrapper {
+	margin: 0 auto;
+	height: 1%;
+	text-align: left;
+	}
+	
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 100px;
+	}
+
+h2 {
+	text-align: center;
+	font-size: 2.3em;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 75px;
+	}
+  
+a {color: #43a047;}  
+	
+.intro {
+	/*background: url('../images/banner.jpg') no-repeat center center; */
+	background-color: #88636e;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 13% 10%;
+	color: #fff;
+	font-size: 2.5em;
+  }
+  
+  p {
+	margin-bottom: 40px;
+	line-height: 1.5em;
+	}
+
+.intro a {
+	text-decoration: none;
+	color: #B3E5FC;
+}
+	
+.intro p span {
+	background: #000;
+	background-color: rgba(0,0,0,0.4);
+	padding: 3px;
+	box-shadow: 10px 0 0 rgba(0,0,0,.4), -10px 0 0 rgba(0,0,0,.4);
+
+	}
+	
+		
+.portfolio {
+	background: #fff;
+	font-size: 2em;
+	padding: 100px 10%;
+	color: #444;
+}
+
+
+
+
+
+
+
+.intro p {
+	display: inline-block;
+/*
+	text-transform: none;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-100vw,0,0);
+	transform: translate3d(-100vw,0,0);
+	*/
+}
+
+.intro p:first-child {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.intro p:nth-of-type(2) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.intro p:nth-of-type(3) {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
