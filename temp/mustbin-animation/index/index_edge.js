@@ -103,7 +103,7 @@
                     }
                 },
                 timeline: {
-                    duration: 3001.07421875,
+                    duration: 3001,
                     autoPlay: true,
                     data: [
                         [
