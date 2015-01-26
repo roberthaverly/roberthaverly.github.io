@@ -30,7 +30,7 @@ h2 {
 a {color: #43a047;}  
 	
 .intro {
-	/*background: url('../images/banner.jpg') no-repeat center center; */
+	background: url('../images/banner.jpg') no-repeat center center;
 	background-color: #88636e;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
