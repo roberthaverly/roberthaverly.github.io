@@ -4,7 +4,7 @@ body {
 	font-family: 'Roboto', Helvetica, sans-serif;
 	color: #000;
 	text-align: center;
-	background: #ebebeb;
+	background: #F5F5F5;
 }
 
 #wrapper {
@@ -61,7 +61,6 @@ a {color: #43a047;}
 	
 		
 .portfolio {
-	background: #fff;
 	font-size: 2em;
 	padding: 100px 10%;
 	color: #444;
