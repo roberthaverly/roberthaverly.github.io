@@ -151,6 +151,14 @@ p {
     margin-bottom: 100px;
 }
 
+.process-nav {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #21242D;
+    width: 75%
+}
+
+
 footer {
     background: #1C1F26;
     height: 400px;
