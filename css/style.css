@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -65,6 +65,12 @@ nav a {
     font-family: sans-serif;
 }
 
+#intro {
+    background-color: #21242D;
+    padding: 100px 20px;
+    margin-bottom: 200px;
+}
+
 #portfolio {padding: 0 10%;}
 
 #portfolio h3 { 
@@ -78,6 +84,13 @@ nav a {
 }
 
 #portfolio section {padding: 50px 0;}
+
+.portfolio-description sub,
+.portfolio-description div,
+.portfolio-description p,
+.portfolio-description h4 {
+    margin-left: 5px;
+}
 
 #portfolio .case-study {
 
@@ -125,9 +138,22 @@ p {
     border-radius: 5px;
 }
 
+.process-container {
+    padding: 0 4%;
+    width: 50%;
+}
+
+.process-container h3 {
+    font-size: 3rem;
+}
+
+.process-container section {
+    margin-bottom: 100px;
+}
 
 footer {
     background: #1C1F26;
     height: 400px;
     margin-top: 200px;
+    padding: 5rem;
 }
