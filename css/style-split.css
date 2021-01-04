@@ -1,0 +1,19 @@
+header {
+  height: 100vh;
+}
+
+.full-width {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.left-fifty {
+  background-color: bisque;
+}
+
+.right-fifty {
+  background-color: black;
+}
+
+/*# sourceMappingURL=style-split.css.map */

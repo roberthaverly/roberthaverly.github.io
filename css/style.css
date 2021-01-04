@@ -3,8 +3,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: rgba(192, 199, 212, 1.00);
-    background-color: rgba(46, 52, 64, 1.00);
+    color: #dbdcd7;
+    background-color: #2f343f;
 }
 
 body#home {background-color: rgba(46, 52, 64, 1.00);}
@@ -12,9 +12,9 @@ body#process {background-color: rgba(46, 52, 64, 1.00);}
 body#contact {background-color: rgba(46, 52, 64, 1.00);}
 
 header{
-    padding: 0 0 25rem 5rem;
     width: 75%;
-    min-height: 100vh;
+    margin-bottom: 18rem;
+    padding-left: 5rem;
 }
 
 a {
@@ -44,12 +44,14 @@ header h2 {
 }
 
 nav {
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 300px;
+    margin-bottom: 18rem;
 }
 
-nav ul {overflow: hidden;}
+nav ul {
+    overflow: hidden;
+    padding: 0;
+    margin-top: 50px;
+}
 nav ul li {
     display: inline;
     overflow: hidden;
@@ -63,15 +65,23 @@ nav a {
     font-weight: 600;
     text-decoration: none;
     font-family: sans-serif;
+    color: rgba(246, 205, 122, 1.00);
 }
 
 #intro {
-    background-color: #21242D;
-    padding: 100px 20px;
-    margin-bottom: 200px;
+    width: 50%;
+    padding-left: 5rem;
 }
 
-#portfolio {padding: 0 10%;}
+#intro p {
+    font-size: 1.5rem;
+    color: #dbdcd7;
+    font-weight: 200;
+    line-height: 2.2rem;
+    letter-spacing: -0.02em;
+}
+
+#portfolio {padding: 20rem 0 0 5rem;}
 
 #portfolio h3 { 
     letter-spacing: -0.02em;
@@ -104,8 +114,8 @@ sub {
 
 .grid-container {
     display: grid;
-    grid-row-gap: 50px;
-    grid-column-gap: 50px;
+    grid-row-gap: 18rem;
+    grid-column-gap: 10rem;
     align-items: center;  
     margin-bottom: 50px;
 }
@@ -114,7 +124,10 @@ sub {
 .two-by {grid-template-columns: 2fr 2fr;}
 .one-by {grid-template-columns: 3fr;}
 
-.grid-container img {border-radius: 15px;  }
+.grid-container img {
+    border-radius: 15px;
+    width: 500px;
+}
 
 p {
     font-size: 1.2em;
@@ -144,7 +157,7 @@ p {
 }
 
 .process-container h3 {
-    font-size: 3rem;
+    fnot-size: 3rem;
 }
 
 .process-container section {
