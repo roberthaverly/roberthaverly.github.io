@@ -189,7 +189,9 @@ footer {
   and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (-webkit-min-device-pixel-ratio: 3) {
+
     body { 
-        background-color: #000;
+        background-color: #000 !important;
     }
+
 }
