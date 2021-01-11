@@ -12,7 +12,7 @@ body#process {background-color: rgba(46, 52, 64, 1.00);}
 body#contact {background-color: rgba(46, 52, 64, 1.00);}
 
 #wrapper {
-    padding: 5%;
+    padding: 1% 5%;
 }
 
 header{
@@ -61,9 +61,7 @@ nav ul li {
 }
 
 nav a {
-    display: block;
     font-size: 1.2rem;
-    float: left;
     margin-right: 150px;
     font-weight: 600;
     text-decoration: none;
@@ -186,12 +184,13 @@ footer {
 }
 
 @media only screen /* modern ios */ 
-  and (max-device-width: 896px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (-webkit-min-device-pixel-ratio: 3) {
+and (min-device-width: 10px)
+and (max-device-width: 896px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (-webkit-min-device-pixel-ratio: 3) {
 
     body { 
-        background-color: #000 !important;
+        font-size: 6rem;
     }
 
 }
