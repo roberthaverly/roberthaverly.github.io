@@ -102,10 +102,6 @@ nav a {
     margin-left: 5px;
 }
 
-#portfolio .case-study {
-
-}
-
 sub {
     font-weight: 600;
     font-size: 1em;
@@ -121,8 +117,6 @@ sub {
 }
 
 .home-grid {grid-template-columns: 2fr 2fr;}
-.two-by {grid-template-columns: 2fr 2fr;}
-.one-by {grid-template-columns: 3fr;}
 
 .grid-container img {
     border-radius: 15px;
@@ -171,6 +165,15 @@ p {
     width: 75%
 }
 
+#portfolio.case-study { 
+    width: 100%;
+    padding-right: 4%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    }
+
+    .span-col-2{grid-column: span 2 / auto;}  
 
 footer {
     background: #1C1F26;
