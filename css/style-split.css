@@ -1,19 +1,14 @@
-header {
-  height: 100vh;
-}
+@import url('reset.css');
 
-.full-width {
+#home-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
 }
+.two-by{grid-column: span 2 / auto;}
 
-.left-fifty {
-  background-color: bisque;
+#home-port-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
 }
-
-.right-fifty {
-  background-color: black;
-}
-
-/*# sourceMappingURL=style-split.css.map */

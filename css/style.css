@@ -11,10 +11,13 @@ body#home {background-color: rgba(46, 52, 64, 1.00);}
 body#process {background-color: rgba(46, 52, 64, 1.00);}
 body#contact {background-color: rgba(46, 52, 64, 1.00);}
 
+#wrapper {
+    padding: 5%;
+}
+
 header{
-    width: 75%;
+    max-width: 75%;
     margin-bottom: 18rem;
-    padding-left: 5rem;
 }
 
 a {
@@ -69,8 +72,8 @@ nav a {
 }
 
 #intro {
-    width: 50%;
-    padding-left: 5rem;
+    max-width: 50%;
+    min-width: 500px;
 }
 
 #intro p {
@@ -81,7 +84,9 @@ nav a {
     letter-spacing: -0.02em;
 }
 
-#portfolio {padding: 20rem 0 0 5rem;}
+#portfolio {
+    padding: 20rem 0 0 0;
+}
 
 #portfolio h3 { 
     letter-spacing: -0.02em;
@@ -146,12 +151,11 @@ p {
 }
 
 .process-container {
-    padding: 0 4%;
     width: 50%;
 }
 
 .process-container h3 {
-    fnot-size: 3rem;
+    font-size: 3rem;
 }
 
 .process-container section {
@@ -167,13 +171,12 @@ p {
 
 #portfolio.case-study { 
     width: 100%;
-    padding-right: 4%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     }
 
-    .span-col-2{grid-column: span 2 / auto;}  
+.span-col-2{grid-column: span 2 / auto;}  
 
 footer {
     background: #1C1F26;
