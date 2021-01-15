@@ -7,10 +7,6 @@ body {
     background-color: #2f343f;
 }
 
-body#home {background-color: rgba(46, 52, 64, 1.00);}
-body#process {background-color: rgba(46, 52, 64, 1.00);}
-body#contact {background-color: rgba(46, 52, 64, 1.00);}
-
 #wrapper {
     padding: 1% 5%;
 }
