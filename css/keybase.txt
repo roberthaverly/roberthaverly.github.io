@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/roberthaverly
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://roberthaverly.com
+  * I am roberthaverly (https://keybase.io/roberthaverly) on keybase.
+  * I have a public key ASDdnI1E8p5oBCjRKOySzj81wvHU0ELjISyQgiMRED_ZAgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120dd9c8d44f29e680428d128ec92ce3f35c2f1d4d042e3212c90822311103fd9020a",
+      "host": "keybase.io",
+      "kid": "0120dd9c8d44f29e680428d128ec92ce3f35c2f1d4d042e3212c90822311103fd9020a",
+      "uid": "7849a31725288d97fe951060d6e0fe19",
+      "username": "roberthaverly"
+    },
+    "merkle_root": {
+      "ctime": 1610870081,
+      "hash": "c7f3a79d00121722fa4c6b51a36316522f26e6abd4accf6eb82c95fb3fe2d6c973c4d05951c3d1e52103ccf6d1a084119c5d2f440ebffdedb4f05609b36ed84d",
+      "hash_meta": "88521eef03ecd07da3f498abb3fdfd0df05ca448aba84803898ec28427d39dd6",
+      "seqno": 18800903
+    },
+    "service": {
+      "entropy": "l5bA/B5H2lQuNMTS959/Jq5V",
+      "hostname": "roberthaverly.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1610870108,
+  "expire_in": 504576000,
+  "prev": "de3ffdc12fbc018ddd0694ed9912f657333ee2a62f67c420e22d20139d427a2c",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg3ZyNRPKeaAQo0Sjsks4/NcLx1NBC4yEskIIjERA/2QIKp3BheWxvYWTESpcCCcQg3j/9wS+8AY3dBpTtmRL2VzM+4qYvZ8Qg4i0gE51CeizEIEvjThB6gV4p7Dimv+FeJuau+6qm3avl1cLANkismeFAAgHCo3NpZ8RA+XLzoiC70zB0eABcuJc/r5maXV0YESW3ZJnAnTtqcTntl7bInoRfXNFFZwdYPaKuRt6xrDWL2hJtjvr8wqEAAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAVWqHezysr2d9Ssv/pGraGkSiSkMw0iKe6rwQxd1ouao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/roberthaverly
+
+==================================================================
