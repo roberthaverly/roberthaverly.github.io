@@ -245,17 +245,31 @@
     }
   }
 
-  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
-
-  body#temp {
-      background-color: #1D1823;
-      color: #fff;
+  body {
+      background-color: #FFFCF4;
+      color: #000;
   }
 
-  body#temp p {
-      font-size: 90px;
-      width: 500px;
-      font-family: 'Teko', sans-serif;
-      font-weight: 700;
-      line-height: 90%
+  #splash {
+    width: 70%;
+    margin: 8% 0 0 8%;
+
+  }
+
+  body h1 {
+    font-family: 'Noto Serif Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 140%;
+    margin-bottom: 100px;
+  }
+
+  body p {
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 140%;
+    width: 716px;
   }
