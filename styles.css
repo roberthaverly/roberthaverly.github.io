@@ -36,12 +36,6 @@ h4 {
   color: rgb(255, 255, 255);
 }
 
-@media (min-width: 40em) {
-  h1 {
-    font-size: 6rem;
-    line-height: 6rem;
-  }
-}
 h1:hover {
   color: #403f4c;
   transition: color 300ms ease-in-out;
@@ -170,8 +164,26 @@ a.portfolio-back-arrow {
 }
 
 @media (max-width: 80em) {
+  h1 {
+    font-size: 2.8rem;
+    line-height: 4rem;
+  }
+  #work-overview-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
   .gallery {
     grid-template-columns: 1fr;
+  }
+  nav a {
+    font-size: 0.8rem;
+  }
+  p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 175%;
+    margin-bottom: 2rem;
   }
 }
 
